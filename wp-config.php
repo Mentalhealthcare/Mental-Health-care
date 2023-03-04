@@ -19,11 +19,12 @@
  */
 
 
-// ** Database settings - You can get this info from your web host ** //
+// ** Database settings - You can get this info from your web host 123** //
 /** The name of the database for WordPress */
-
+if()
 
 $db['host'] = '89.117.139.42';
+
 define( 'DB_NAME', 'u601171261_mentalhealth' );
 
 /** Database username */
