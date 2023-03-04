@@ -18,24 +18,32 @@
  * @package WordPress
  */
 
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'mentalhealthcare' );
+
+
+//$db['host'] = 'server IP address here';
+define( 'DB_NAME', 'u601171261_mentalhealth' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'u601171261_mentalhealth' );
 
 /** Database password */
-define( 'DB_PASSWORD', '');
+define( 'DB_PASSWORD', 'Welcome90#@!');
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '89.117.139.42' );
+
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
 
+$db['port'] = '465';
+
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+
 
 /**#@+
  * Authentication unique keys and salts.
@@ -79,7 +87,7 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
