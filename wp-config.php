@@ -33,6 +33,7 @@ define( 'DB_USER', 'u601171261_mentalhealth' );
 define( 'DB_PASSWORD', 'Welcome90#@!');
 
 /** Database hostname */
+define( 'DB_HOST', 'https://mentalhealthcare.us/' );
 
 
 /** Database charset to use in creating database tables. */
