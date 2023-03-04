@@ -23,7 +23,7 @@
 /** The name of the database for WordPress */
 
 
-//$db['host'] = 'server IP address here';
+$db['host'] = '89.117.139.42';
 define( 'DB_NAME', 'u601171261_mentalhealth' );
 
 /** Database username */
@@ -33,7 +33,6 @@ define( 'DB_USER', 'u601171261_mentalhealth' );
 define( 'DB_PASSWORD', 'Welcome90#@!');
 
 /** Database hostname */
-define( 'DB_HOST', '89.117.139.42' );
 
 
 /** Database charset to use in creating database tables. */
